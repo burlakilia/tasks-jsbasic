@@ -12,9 +12,7 @@ function makeDiagonalRed(table) {
 // Где в переменной table находится DOM-элемент для тега <table>
 makeDiagonalRed(table);
 ```
-Должно получиться так:
-
-[iframe src="result" height=180]
+Как должно получиться, можно посмотреть, открыв в браузере страничку с результатом: `/result.view/index.html`.
 
 P.S. для решения рекомендуется использовать свойства `rows` таблицы (элемент `<table>`) 
 и `cells` элемента строки (элемент `<tr>`). Подробнее об этом можно прочитать [вот тут](https://learn.javascript.ru/dom-navigation#dom-navigation-tables);
